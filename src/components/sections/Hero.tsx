@@ -22,6 +22,9 @@ export function Hero() {
                   {t('headline_main')}
                 </span>
               </h1>
+              <p className="mx-auto max-w-2xl text-base sm:text-lg text-text-secondary leading-relaxed mt-6">
+                {t('subheadline')}
+              </p>
             </>
           }
         >
