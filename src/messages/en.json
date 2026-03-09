@@ -1,0 +1,361 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "diagnostic": "Free Diagnostic",
+    "cta": "Get Started"
+  },
+  "home": {
+    "hero": {
+      "badge": "AI-Powered Business Growth",
+      "headline": "Your business deserves intelligence. Not just software.",
+      "subheadline": "We build AI automations and smart websites that generate leads, save time, and scale your operations. No fluff. Real results.",
+      "cta_primary": "Book a Strategy Call",
+      "cta_secondary": "Explore Services"
+    },
+    "problem": {
+      "label": "Sound familiar?",
+      "title": "The invisible cost of doing things the old way",
+      "items": [
+        { "text": "You lose leads because nobody follows up fast enough", "icon": "clock" },
+        { "text": "Your team wastes hours on repetitive tasks every week", "icon": "repeat" },
+        { "text": "Your website looks fine but doesn't actually convert", "icon": "trending-down" },
+        { "text": "You know AI could help but don't know where to start", "icon": "help-circle" }
+      ],
+      "solution_title": "We fix that.",
+      "solution_text": "Agency Level 5 designs and deploys AI-powered systems that work while you sleep. From chatbots that close deals to workflows that eliminate busywork — we build the engine so you can focus on growth."
+    },
+    "services": {
+      "label": "What We Build",
+      "title": "Intelligent systems that scale with you",
+      "items": [
+        {
+          "title": "AI Chatbots",
+          "description": "24/7 conversational agents that qualify leads, answer questions, and book appointments automatically.",
+          "slug": "ai-chatbots"
+        },
+        {
+          "title": "Business Automation",
+          "description": "Custom workflows that eliminate manual tasks, reduce errors, and free your team to focus on high-value work.",
+          "slug": "automation"
+        },
+        {
+          "title": "Smart Websites",
+          "description": "High-performance sites built to convert — with AI-powered personalization, SEO, and analytics baked in.",
+          "slug": "smart-websites"
+        },
+        {
+          "title": "Lead Generation",
+          "description": "Automated funnels that capture, nurture, and convert leads while you focus on closing deals.",
+          "slug": "lead-generation"
+        },
+        {
+          "title": "AI Consulting",
+          "description": "Strategic guidance to identify where AI will have the biggest impact on your bottom line.",
+          "slug": "ai-consulting"
+        }
+      ]
+    },
+    "stats": {
+      "clients": "Clients Served",
+      "automations": "Automations Built",
+      "hours_saved": "Hours Saved",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "process": {
+      "label": "How It Works",
+      "title": "From diagnosis to deployment in weeks, not months",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Diagnose",
+          "description": "We audit your operations to find the highest-impact automation opportunities."
+        },
+        {
+          "number": "02",
+          "title": "Design",
+          "description": "We architect a custom solution tailored to your workflows, tools, and goals."
+        },
+        {
+          "number": "03",
+          "title": "Deploy",
+          "description": "We build, test, and launch your automation — with training for your team."
+        },
+        {
+          "number": "04",
+          "title": "Scale",
+          "description": "We monitor, optimize, and expand your systems as your business grows."
+        }
+      ]
+    },
+    "testimonials": {
+      "label": "Results",
+      "title": "What our clients say",
+      "items": [
+        {
+          "quote": "Agency Level 5 automated our entire lead follow-up process. We went from losing 40% of leads to converting 3x more — in just 6 weeks.",
+          "name": "Carlos Méndez",
+          "role": "CEO, TechFlow Solutions",
+          "metric": "3x more conversions"
+        },
+        {
+          "quote": "The smart website they built us ranks on Google's first page for 12 keywords. Our organic traffic increased 280% in 4 months.",
+          "name": "Sarah Williams",
+          "role": "Marketing Director, GrowthBridge",
+          "metric": "280% organic growth"
+        },
+        {
+          "quote": "Their AI chatbot handles 70% of our customer inquiries now. My support team finally has time to focus on complex issues.",
+          "name": "Miguel Torres",
+          "role": "Operations Manager, ScaleUp Corp",
+          "metric": "70% automated support"
+        }
+      ]
+    },
+    "diagnostic_cta": {
+      "label": "Free Tool",
+      "title": "Score your workflow in 3 minutes",
+      "description": "Our Workflow Bottleneck Score reveals hidden friction, manual dependencies, and visibility gaps in your operations. Get a professional maturity assessment — free.",
+      "cta": "Take Free Assessment",
+      "features": ["10 diagnostic questions", "5-pillar analysis", "Custom recommendations"]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is AI automation and how can it help my business?",
+          "answer": "AI automation uses artificial intelligence to handle repetitive tasks, make decisions, and optimize workflows without human intervention. For businesses, this means faster lead response times, fewer errors, lower operational costs, and the ability to scale without proportionally increasing headcount. We specialize in GoHighLevel, Zapier, Make, and custom AI integrations."
+        },
+        {
+          "question": "How long does it take to implement an automation?",
+          "answer": "Most projects go from diagnosis to deployment in 2-6 weeks, depending on complexity. A simple chatbot can be live in under a week. A comprehensive business process automation typically takes 3-4 weeks. We prioritize speed without sacrificing quality."
+        },
+        {
+          "question": "What platforms do you work with?",
+          "answer": "We're experts in GoHighLevel, Zapier, Make (Integromat), OpenAI GPT, Twilio, Stripe, HubSpot, and most major CRM and marketing platforms. We also build custom solutions when off-the-shelf tools don't fit."
+        },
+        {
+          "question": "How much does it cost?",
+          "answer": "Projects typically range from $2,000 for focused automations to $12,000+ for comprehensive business transformation packages. Every engagement starts with a free diagnostic call where we identify the highest-ROI opportunities for your specific situation."
+        },
+        {
+          "question": "Do I need technical knowledge to use the automations?",
+          "answer": "Not at all. We design every system to be operated by non-technical team members. Every project includes hands-on training, documentation, and ongoing support. If your team can use email, they can use our automations."
+        },
+        {
+          "question": "What results can I expect?",
+          "answer": "Our clients typically see 3-5x improvement in lead response time, 40-70% reduction in manual task hours, and measurable increases in conversion rates within the first month. We track specific KPIs for every engagement."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to automate your growth?",
+      "description": "Book a free 15-minute strategy call. We'll identify the top 3 automation opportunities for your business.",
+      "button": "Book Strategy Call",
+      "note": "No commitment. No sales pitch. Just actionable insights."
+    }
+  },
+  "services_page": {
+    "title": "Our Services",
+    "subtitle": "End-to-end AI automation solutions designed to eliminate bottlenecks and accelerate growth.",
+    "cta_diagnostic": "Not sure what you need? Take our free diagnostic first."
+  },
+  "service": {
+    "ai-chatbots": {
+      "title": "AI Chatbots & Virtual Assistants",
+      "subtitle": "Intelligent conversational agents that work 24/7 to qualify leads, support customers, and drive revenue.",
+      "description": "Our AI chatbots go beyond scripted responses. Built on GPT and custom-trained on your business data, they understand context, qualify prospects, book appointments, and escalate complex issues — all while maintaining your brand voice.",
+      "features": [
+        { "title": "24/7 Availability", "description": "Never miss a lead. Your chatbot responds instantly, day or night, in English and Spanish." },
+        { "title": "Lead Qualification", "description": "Automatically scores and segments leads based on conversation data and buying signals." },
+        { "title": "CRM Integration", "description": "Seamlessly syncs with GoHighLevel, HubSpot, Salesforce, and other CRMs." },
+        { "title": "Multilingual Support", "description": "Serve customers in multiple languages with native-quality responses." }
+      ],
+      "benefits": ["Reduce response time by 90%", "Increase lead conversion by 3x", "Scale support without hiring"]
+    },
+    "automation": {
+      "title": "Business Process Automation",
+      "subtitle": "Custom workflows that eliminate manual tasks, reduce errors, and let your team focus on what matters.",
+      "description": "We design and deploy intelligent automation systems using GoHighLevel, Zapier, Make, and custom code. From lead nurturing sequences to internal approval workflows, we turn repetitive processes into reliable, hands-free operations.",
+      "features": [
+        { "title": "Workflow Design", "description": "Custom-built automation flows tailored to your exact business processes." },
+        { "title": "GoHighLevel Setup", "description": "Full CRM and automation platform configuration, optimization, and training." },
+        { "title": "Email & SMS Sequences", "description": "Automated nurture campaigns that move leads through your pipeline." },
+        { "title": "Analytics & Reporting", "description": "Real-time dashboards that track automation performance and ROI." }
+      ],
+      "benefits": ["Save 20+ hours per week", "Eliminate human error", "Focus your team on growth"]
+    },
+    "smart-websites": {
+      "title": "Smart Websites",
+      "subtitle": "High-performance websites built to convert — with AI personalization, SEO, and analytics built in.",
+      "description": "Your website should be your best salesperson. We build fast, SEO-optimized sites with AI-powered personalization, dynamic content, and conversion-focused design. Every site is built to rank on Google and AI search engines.",
+      "features": [
+        { "title": "AI-Powered Personalization", "description": "Dynamic content that adapts to visitor behavior and preferences." },
+        { "title": "SEO & GEO Optimized", "description": "Built to rank on Google, Bing, ChatGPT, and AI search engines." },
+        { "title": "Conversion-Focused Design", "description": "Every element is designed to turn visitors into leads and customers." },
+        { "title": "Mobile-First Performance", "description": "Sub-3-second load times and perfect Core Web Vitals scores." }
+      ],
+      "benefits": ["Increase organic traffic by 200%+", "Higher conversion rates", "Rank in AI search results"]
+    },
+    "lead-generation": {
+      "title": "Lead Generation & Nurturing",
+      "subtitle": "Automated funnels that capture, qualify, and convert leads while you focus on closing deals.",
+      "description": "We build end-to-end lead generation systems that combine landing pages, forms, email sequences, SMS follow-ups, and AI-powered scoring. Every touchpoint is automated and optimized for maximum conversion.",
+      "features": [
+        { "title": "Funnel Design", "description": "High-converting landing pages and lead capture forms optimized for your audience." },
+        { "title": "Email Nurturing", "description": "Automated email sequences that educate, engage, and convert prospects." },
+        { "title": "Lead Scoring", "description": "AI-powered scoring that identifies your hottest prospects automatically." },
+        { "title": "Pipeline Analytics", "description": "Real-time visibility into your funnel performance and conversion metrics." }
+      ],
+      "benefits": ["More qualified leads", "Shorter sales cycles", "Higher ROI on marketing spend"]
+    },
+    "ai-consulting": {
+      "title": "AI Strategy & Consulting",
+      "subtitle": "Expert guidance to identify where AI will have the biggest impact on your business.",
+      "description": "Not sure where to start with AI? Our consulting engagements begin with a comprehensive audit of your operations, identify the highest-ROI automation opportunities, and deliver a clear implementation roadmap. We help you make informed decisions about AI adoption.",
+      "features": [
+        { "title": "AI Readiness Audit", "description": "Comprehensive assessment of your current operations and automation potential." },
+        { "title": "Strategy Development", "description": "Custom AI adoption roadmap aligned with your business goals and budget." },
+        { "title": "Implementation Planning", "description": "Detailed technical specifications and project timeline for each phase." },
+        { "title": "Team Training", "description": "Hands-on workshops to prepare your team for AI-powered operations." }
+      ],
+      "benefits": ["Competitive advantage through AI", "Informed technology decisions", "Future-proof your business"]
+    }
+  },
+  "about": {
+    "title": "About Agency Level 5",
+    "subtitle": "We're operators who build for operators.",
+    "story": "Agency Level 5 was founded with a simple belief: every business deserves the operational intelligence that used to be reserved for enterprise companies. We combine deep expertise in AI, automation, and growth strategy to help businesses eliminate bottlenecks and scale efficiently.",
+    "mission_label": "Our Mission",
+    "mission": "To make intelligent automation accessible to every growth-focused business — not just those with million-dollar tech budgets.",
+    "values_label": "Our Values",
+    "values": [
+      { "title": "Results Over Features", "description": "We measure success by your ROI, not by how many tools we implement." },
+      { "title": "Speed With Quality", "description": "We deploy fast because your business can't wait, but never at the expense of reliability." },
+      { "title": "Radical Transparency", "description": "No black boxes. You understand every system we build, and you own it completely." }
+    ]
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Book a free strategy call or send us a message. We'll respond within 24 hours.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "service": "Service Interested In",
+      "service_options": ["AI Chatbots", "Business Automation", "Smart Websites", "Lead Generation", "AI Consulting", "Not sure yet"],
+      "message": "Tell us about your project",
+      "submit": "Send Message",
+      "success": "Message sent! We'll be in touch within 24 hours."
+    },
+    "diagnostic_alt": "Not sure what you need? Take our free Workflow Bottleneck Score first.",
+    "diagnostic_cta": "Take Free Assessment"
+  },
+  "diagnostic": {
+    "app": {
+      "name": "Workflow Bottleneck Score",
+      "tagline": "Operational Diagnostic for B2B Enterprises",
+      "description": "Identify hidden friction, manual dependencies, and visibility gaps in your internal operations. Get a professional assessment of your workflow maturity.",
+      "start": "Start Diagnostic",
+      "restart": "Restart Assessment",
+      "next": "Next Step",
+      "back": "Back",
+      "calculating": "Analyzing your operations...",
+      "finish": "See Results"
+    },
+    "landing": {
+      "title": "Is your workflow scaling, or just surviving?",
+      "subtitle": "Most B2B companies lose 20-30% of their operational capacity to hidden friction — manual follow-ups, fragmented data, and opaque handoffs.",
+      "cta": "Start Free Diagnostic",
+      "timeEstimate": "Takes ~3 minutes"
+    },
+    "progress": {
+      "step": "Step",
+      "of": "of",
+      "label": "Diagnostic Progress"
+    },
+    "lead": {
+      "title": "Your Preliminary Analysis is Ready",
+      "subtitle": "We have identified key areas of friction. Enter your details to unlock the full executive report and pillar breakdown.",
+      "name": "Full Name",
+      "company": "Company Name",
+      "email": "Work Email",
+      "phone": "Phone (Optional)",
+      "unlock": "Unlock Full Report",
+      "privacy": "Your data is handled with strict confidentiality."
+    },
+    "results": {
+      "title": "Operational Diagnostic Report",
+      "overallScore": "Overall Bottleneck Score",
+      "maturity": "Maturity Level",
+      "pillarBreakdown": "Pillar Breakdown",
+      "topBottlenecks": "Top Strategic Bottlenecks",
+      "recommendation": "Recommended Phase 1 Focus",
+      "ctaTitle": "Ready to automate and scale?",
+      "ctaDescription": "Book a 15-minute diagnostic call to discuss these results and explore a custom automation roadmap for your business.",
+      "bookCall": "Schedule Diagnostic Call",
+      "scoreDescription": "A higher score indicates a more robust, digital, and scalable operational foundation.",
+      "sharePrompt": "Challenge your network — how does their company compare?",
+      "shareLinkedIn": "Share My Score on LinkedIn"
+    },
+    "pillars": {
+      "visibility": "Visibility",
+      "process": "Process Control",
+      "execution": "Execution & Follow-up",
+      "approvals": "Approvals & Handoffs",
+      "reporting": "Reporting & Accountability"
+    },
+    "maturity": {
+      "fragile": {
+        "label": "Fragile",
+        "description": "Operations depend heavily on individual memory and manual effort. High risk of error and burnout."
+      },
+      "reactive": {
+        "label": "Reactive",
+        "description": "Processes exist but are fragmented. Management spends most of their time firefighting instead of scaling."
+      },
+      "functional": {
+        "label": "Functional but Constrained",
+        "description": "Solid foundation, but manual handoffs and visibility gaps are preventing the next level of growth."
+      },
+      "strong": {
+        "label": "Strong Foundation",
+        "description": "Highly digital and automated. Operations are a competitive advantage, not a bottleneck."
+      }
+    },
+    "bottlenecks": {
+      "manual_followup": {
+        "title": "Manual Follow-up Dependency",
+        "description": "Work moves because people remember to push it, not because the system pulls it forward."
+      },
+      "visibility_gap": {
+        "title": "Operational Visibility Gap",
+        "description": "Management lacks real-time insight into job status, leading to reactive decision-making."
+      },
+      "fragmented_data": {
+        "title": "Data Fragmentation",
+        "description": "Information is scattered across WhatsApp, Excel, and Email, creating islands of knowledge."
+      },
+      "approval_friction": {
+        "title": "Approval & Handoff Friction",
+        "description": "Critical stages are delayed waiting for manual sign-offs or lost in email threads."
+      },
+      "reporting_blindness": {
+        "title": "Reporting Blindness",
+        "description": "Lack of automated KPIs makes it impossible to identify where the business is actually losing money."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Intelligent automation for growth-focused businesses.",
+    "services": "Services",
+    "company": "Company",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}

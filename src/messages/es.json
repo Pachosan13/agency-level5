@@ -1,0 +1,361 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "diagnostic": "Diagnóstico Gratis",
+    "cta": "Empezar"
+  },
+  "home": {
+    "hero": {
+      "badge": "Crecimiento Impulsado por IA",
+      "headline": "Su negocio merece inteligencia. No solo software.",
+      "subheadline": "Construimos automatizaciones con IA y sitios web inteligentes que generan leads, ahorran tiempo y escalan sus operaciones. Sin relleno. Resultados reales.",
+      "cta_primary": "Agendar Llamada Estratégica",
+      "cta_secondary": "Ver Servicios"
+    },
+    "problem": {
+      "label": "¿Le suena familiar?",
+      "title": "El costo invisible de hacer las cosas a la antigua",
+      "items": [
+        { "text": "Pierde leads porque nadie hace seguimiento lo suficientemente rápido", "icon": "clock" },
+        { "text": "Su equipo desperdicia horas cada semana en tareas repetitivas", "icon": "repeat" },
+        { "text": "Su sitio web se ve bien pero no convierte realmente", "icon": "trending-down" },
+        { "text": "Sabe que la IA podría ayudar pero no sabe por dónde empezar", "icon": "help-circle" }
+      ],
+      "solution_title": "Nosotros lo resolvemos.",
+      "solution_text": "Agency Level 5 diseña y despliega sistemas inteligentes que trabajan mientras usted duerme. Desde chatbots que cierran negocios hasta flujos que eliminan trabajo manual — construimos el motor para que usted se enfoque en crecer."
+    },
+    "services": {
+      "label": "Lo Que Construimos",
+      "title": "Sistemas inteligentes que escalan con usted",
+      "items": [
+        {
+          "title": "Chatbots con IA",
+          "description": "Agentes conversacionales 24/7 que califican leads, responden preguntas y agendan citas automáticamente.",
+          "slug": "ai-chatbots"
+        },
+        {
+          "title": "Automatización de Procesos",
+          "description": "Flujos de trabajo personalizados que eliminan tareas manuales, reducen errores y liberan a su equipo.",
+          "slug": "automation"
+        },
+        {
+          "title": "Sitios Web Inteligentes",
+          "description": "Sitios de alto rendimiento diseñados para convertir — con personalización IA, SEO y analítica integrada.",
+          "slug": "smart-websites"
+        },
+        {
+          "title": "Generación de Leads",
+          "description": "Embudos automatizados que capturan, nutren y convierten leads mientras usted se enfoca en cerrar.",
+          "slug": "lead-generation"
+        },
+        {
+          "title": "Consultoría de IA",
+          "description": "Guía estratégica para identificar dónde la IA tendrá el mayor impacto en su rentabilidad.",
+          "slug": "ai-consulting"
+        }
+      ]
+    },
+    "stats": {
+      "clients": "Clientes Atendidos",
+      "automations": "Automatizaciones Creadas",
+      "hours_saved": "Horas Ahorradas",
+      "satisfaction": "Tasa de Satisfacción"
+    },
+    "process": {
+      "label": "Cómo Funciona",
+      "title": "De diagnóstico a producción en semanas, no meses",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Diagnosticar",
+          "description": "Auditamos sus operaciones para encontrar las oportunidades de automatización de mayor impacto."
+        },
+        {
+          "number": "02",
+          "title": "Diseñar",
+          "description": "Arquitectamos una solución personalizada a sus flujos de trabajo, herramientas y objetivos."
+        },
+        {
+          "number": "03",
+          "title": "Desplegar",
+          "description": "Construimos, probamos y lanzamos su automatización — con capacitación para su equipo."
+        },
+        {
+          "number": "04",
+          "title": "Escalar",
+          "description": "Monitoreamos, optimizamos y expandimos sus sistemas a medida que su negocio crece."
+        }
+      ]
+    },
+    "testimonials": {
+      "label": "Resultados",
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        {
+          "quote": "Agency Level 5 automatizó todo nuestro proceso de seguimiento de leads. Pasamos de perder el 40% de leads a convertir 3 veces más — en solo 6 semanas.",
+          "name": "Carlos Méndez",
+          "role": "CEO, TechFlow Solutions",
+          "metric": "3x más conversiones"
+        },
+        {
+          "quote": "El sitio web inteligente que nos construyeron rankea en la primera página de Google para 12 keywords. Nuestro tráfico orgánico aumentó 280% en 4 meses.",
+          "name": "Sarah Williams",
+          "role": "Directora de Marketing, GrowthBridge",
+          "metric": "280% crecimiento orgánico"
+        },
+        {
+          "quote": "Su chatbot con IA maneja el 70% de nuestras consultas de clientes ahora. Mi equipo de soporte por fin tiene tiempo para enfocarse en temas complejos.",
+          "name": "Miguel Torres",
+          "role": "Gerente de Operaciones, ScaleUp Corp",
+          "metric": "70% soporte automatizado"
+        }
+      ]
+    },
+    "diagnostic_cta": {
+      "label": "Herramienta Gratuita",
+      "title": "Evalúe su flujo de trabajo en 3 minutos",
+      "description": "Nuestro Workflow Bottleneck Score revela fricciones ocultas, dependencias manuales y brechas de visibilidad en sus operaciones. Obtenga una evaluación profesional de madurez — gratis.",
+      "cta": "Tomar Evaluación Gratuita",
+      "features": ["10 preguntas de diagnóstico", "Análisis de 5 pilares", "Recomendaciones personalizadas"]
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": [
+        {
+          "question": "¿Qué es la automatización con IA y cómo puede ayudar a mi negocio?",
+          "answer": "La automatización con IA utiliza inteligencia artificial para manejar tareas repetitivas, tomar decisiones y optimizar flujos de trabajo sin intervención humana. Para los negocios, esto significa tiempos de respuesta más rápidos, menos errores, costos operativos más bajos y la capacidad de escalar sin aumentar proporcionalmente el personal. Nos especializamos en GoHighLevel, Zapier, Make e integraciones de IA personalizadas."
+        },
+        {
+          "question": "¿Cuánto tiempo toma implementar una automatización?",
+          "answer": "La mayoría de los proyectos van de diagnóstico a producción en 2-6 semanas, dependiendo de la complejidad. Un chatbot simple puede estar activo en menos de una semana. Una automatización integral de procesos de negocio típicamente toma 3-4 semanas. Priorizamos la velocidad sin sacrificar calidad."
+        },
+        {
+          "question": "¿Con qué plataformas trabajan?",
+          "answer": "Somos expertos en GoHighLevel, Zapier, Make (Integromat), OpenAI GPT, Twilio, Stripe, HubSpot y la mayoría de las plataformas principales de CRM y marketing. También construimos soluciones personalizadas cuando las herramientas existentes no se ajustan."
+        },
+        {
+          "question": "¿Cuánto cuesta?",
+          "answer": "Los proyectos típicamente van desde $2,000 para automatizaciones enfocadas hasta $12,000+ para paquetes integrales de transformación empresarial. Cada proyecto comienza con una llamada de diagnóstico gratuita donde identificamos las oportunidades de mayor ROI para su situación específica."
+        },
+        {
+          "question": "¿Necesito conocimientos técnicos para usar las automatizaciones?",
+          "answer": "Para nada. Diseñamos cada sistema para que pueda ser operado por miembros del equipo sin conocimientos técnicos. Cada proyecto incluye capacitación práctica, documentación y soporte continuo. Si su equipo puede usar correo electrónico, puede usar nuestras automatizaciones."
+        },
+        {
+          "question": "¿Qué resultados puedo esperar?",
+          "answer": "Nuestros clientes típicamente ven una mejora de 3-5x en el tiempo de respuesta a leads, una reducción del 40-70% en horas de tareas manuales, y aumentos medibles en las tasas de conversión dentro del primer mes. Rastreamos KPIs específicos para cada proyecto."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para automatizar su crecimiento?",
+      "description": "Agende una llamada estratégica gratuita de 15 minutos. Identificaremos las 3 principales oportunidades de automatización para su negocio.",
+      "button": "Agendar Llamada Estratégica",
+      "note": "Sin compromiso. Sin discurso de ventas. Solo ideas accionables."
+    }
+  },
+  "services_page": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales de automatización con IA diseñadas para eliminar cuellos de botella y acelerar el crecimiento.",
+    "cta_diagnostic": "¿No está seguro de qué necesita? Tome nuestro diagnóstico gratuito primero."
+  },
+  "service": {
+    "ai-chatbots": {
+      "title": "Chatbots con IA y Asistentes Virtuales",
+      "subtitle": "Agentes conversacionales inteligentes que trabajan 24/7 para calificar leads, atender clientes y generar ingresos.",
+      "description": "Nuestros chatbots con IA van más allá de respuestas programadas. Construidos sobre GPT y entrenados con los datos de su negocio, entienden el contexto, califican prospectos, agendan citas y escalan problemas complejos — todo mientras mantienen la voz de su marca.",
+      "features": [
+        { "title": "Disponibilidad 24/7", "description": "Nunca pierda un lead. Su chatbot responde al instante, día y noche, en inglés y español." },
+        { "title": "Calificación de Leads", "description": "Puntúa y segmenta automáticamente los leads basándose en datos de conversación y señales de compra." },
+        { "title": "Integración con CRM", "description": "Se sincroniza perfectamente con GoHighLevel, HubSpot, Salesforce y otros CRMs." },
+        { "title": "Soporte Multilingüe", "description": "Atienda clientes en múltiples idiomas con respuestas de calidad nativa." }
+      ],
+      "benefits": ["Reduzca el tiempo de respuesta un 90%", "Aumente la conversión de leads 3x", "Escale soporte sin contratar"]
+    },
+    "automation": {
+      "title": "Automatización de Procesos de Negocio",
+      "subtitle": "Flujos de trabajo personalizados que eliminan tareas manuales, reducen errores y permiten a su equipo enfocarse en lo que importa.",
+      "description": "Diseñamos y desplegamos sistemas de automatización inteligente usando GoHighLevel, Zapier, Make y código personalizado. Desde secuencias de nutrición de leads hasta flujos de aprobación internos, convertimos procesos repetitivos en operaciones confiables y sin intervención manual.",
+      "features": [
+        { "title": "Diseño de Flujos", "description": "Automatizaciones personalizadas adaptadas a sus procesos de negocio exactos." },
+        { "title": "Configuración GoHighLevel", "description": "Configuración completa de CRM y plataforma de automatización, optimización y capacitación." },
+        { "title": "Secuencias Email y SMS", "description": "Campañas de nutrición automatizadas que mueven leads a través de su pipeline." },
+        { "title": "Analítica e Informes", "description": "Tableros en tiempo real que rastrean el rendimiento de automatización y ROI." }
+      ],
+      "benefits": ["Ahorre 20+ horas por semana", "Elimine errores humanos", "Enfoque su equipo en crecimiento"]
+    },
+    "smart-websites": {
+      "title": "Sitios Web Inteligentes",
+      "subtitle": "Sitios web de alto rendimiento construidos para convertir — con personalización IA, SEO y analítica integrada.",
+      "description": "Su sitio web debería ser su mejor vendedor. Construimos sitios rápidos, optimizados para SEO con personalización impulsada por IA, contenido dinámico y diseño enfocado en conversión. Cada sitio está construido para rankear en Google y en motores de búsqueda con IA.",
+      "features": [
+        { "title": "Personalización con IA", "description": "Contenido dinámico que se adapta al comportamiento y preferencias del visitante." },
+        { "title": "Optimizado para SEO y GEO", "description": "Construido para rankear en Google, Bing, ChatGPT y motores de búsqueda con IA." },
+        { "title": "Diseño de Conversión", "description": "Cada elemento está diseñado para convertir visitantes en leads y clientes." },
+        { "title": "Rendimiento Mobile-First", "description": "Tiempos de carga menores a 3 segundos y puntuaciones perfectas de Core Web Vitals." }
+      ],
+      "benefits": ["Aumente tráfico orgánico 200%+", "Mayores tasas de conversión", "Rankee en búsquedas con IA"]
+    },
+    "lead-generation": {
+      "title": "Generación y Nutrición de Leads",
+      "subtitle": "Embudos automatizados que capturan, califican y convierten leads mientras usted se enfoca en cerrar negocios.",
+      "description": "Construimos sistemas integrales de generación de leads que combinan landing pages, formularios, secuencias de email, seguimiento SMS y scoring impulsado por IA. Cada punto de contacto está automatizado y optimizado para máxima conversión.",
+      "features": [
+        { "title": "Diseño de Embudos", "description": "Landing pages y formularios de captura de alta conversión optimizados para su audiencia." },
+        { "title": "Nutrición por Email", "description": "Secuencias de email automatizadas que educan, enganchan y convierten prospectos." },
+        { "title": "Scoring de Leads", "description": "Scoring impulsado por IA que identifica sus prospectos más calientes automáticamente." },
+        { "title": "Analítica del Pipeline", "description": "Visibilidad en tiempo real del rendimiento de su embudo y métricas de conversión." }
+      ],
+      "benefits": ["Más leads calificados", "Ciclos de venta más cortos", "Mayor ROI en inversión de marketing"]
+    },
+    "ai-consulting": {
+      "title": "Estrategia y Consultoría de IA",
+      "subtitle": "Guía experta para identificar dónde la IA tendrá el mayor impacto en su negocio.",
+      "description": "¿No está seguro de por dónde empezar con IA? Nuestros proyectos de consultoría comienzan con una auditoría integral de sus operaciones, identifican las oportunidades de automatización de mayor ROI y entregan una hoja de ruta clara de implementación. Le ayudamos a tomar decisiones informadas sobre adopción de IA.",
+      "features": [
+        { "title": "Auditoría de Preparación IA", "description": "Evaluación integral de sus operaciones actuales y potencial de automatización." },
+        { "title": "Desarrollo de Estrategia", "description": "Hoja de ruta personalizada de adopción de IA alineada con sus objetivos y presupuesto." },
+        { "title": "Planificación de Implementación", "description": "Especificaciones técnicas detalladas y cronograma del proyecto para cada fase." },
+        { "title": "Capacitación del Equipo", "description": "Talleres prácticos para preparar a su equipo para operaciones impulsadas por IA." }
+      ],
+      "benefits": ["Ventaja competitiva con IA", "Decisiones tecnológicas informadas", "Prepare su negocio para el futuro"]
+    }
+  },
+  "about": {
+    "title": "Sobre Agency Level 5",
+    "subtitle": "Somos operadores que construyen para operadores.",
+    "story": "Agency Level 5 fue fundada con una creencia simple: cada negocio merece la inteligencia operativa que antes estaba reservada para empresas enterprise. Combinamos experiencia profunda en IA, automatización y estrategia de crecimiento para ayudar a los negocios a eliminar cuellos de botella y escalar eficientemente.",
+    "mission_label": "Nuestra Misión",
+    "mission": "Hacer la automatización inteligente accesible para cada negocio enfocado en crecimiento — no solo aquellos con presupuestos tecnológicos millonarios.",
+    "values_label": "Nuestros Valores",
+    "values": [
+      { "title": "Resultados Sobre Features", "description": "Medimos el éxito por su ROI, no por cuántas herramientas implementamos." },
+      { "title": "Velocidad Con Calidad", "description": "Desplegamos rápido porque su negocio no puede esperar, pero nunca a expensas de la confiabilidad." },
+      { "title": "Transparencia Radical", "description": "Sin cajas negras. Usted entiende cada sistema que construimos, y lo posee completamente." }
+    ]
+  },
+  "contact": {
+    "title": "Hablemos",
+    "subtitle": "Agende una llamada estratégica gratuita o envíenos un mensaje. Responderemos en menos de 24 horas.",
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "company": "Nombre de la Empresa",
+      "service": "Servicio de Interés",
+      "service_options": ["Chatbots con IA", "Automatización de Procesos", "Sitios Web Inteligentes", "Generación de Leads", "Consultoría de IA", "No estoy seguro aún"],
+      "message": "Cuéntenos sobre su proyecto",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado! Nos pondremos en contacto en menos de 24 horas."
+    },
+    "diagnostic_alt": "¿No está seguro de qué necesita? Tome nuestro Workflow Bottleneck Score gratuito primero.",
+    "diagnostic_cta": "Tomar Evaluación Gratuita"
+  },
+  "diagnostic": {
+    "app": {
+      "name": "Workflow Bottleneck Score",
+      "tagline": "Diagnóstico Operativo para Empresas B2B",
+      "description": "Identifique fricciones ocultas, dependencias manuales y brechas de visibilidad en sus operaciones internas. Obtenga una evaluación profesional de su madurez de flujo de trabajo.",
+      "start": "Iniciar Diagnóstico",
+      "restart": "Reiniciar Evaluación",
+      "next": "Siguiente Paso",
+      "back": "Volver",
+      "calculating": "Analizando sus operaciones...",
+      "finish": "Ver Resultados"
+    },
+    "landing": {
+      "title": "¿Su flujo de trabajo está escalando o solo sobreviviendo?",
+      "subtitle": "La mayoría de las empresas B2B pierden entre el 20% y el 30% de su capacidad operativa debido a la fricción oculta — seguimientos manuales, datos fragmentados y entregas opacas.",
+      "cta": "Iniciar Diagnóstico Gratuito",
+      "timeEstimate": "Toma ~3 minutos"
+    },
+    "progress": {
+      "step": "Paso",
+      "of": "de",
+      "label": "Progreso del Diagnóstico"
+    },
+    "lead": {
+      "title": "Su Análisis Preliminar está Listo",
+      "subtitle": "Hemos identificado áreas clave de fricción. Ingrese sus datos para desbloquear el informe ejecutivo completo y el desglose por pilares.",
+      "name": "Nombre Completo",
+      "company": "Nombre de la Empresa",
+      "email": "Correo Electrónico de Trabajo",
+      "phone": "Teléfono (Opcional)",
+      "unlock": "Desbloquear Informe Completo",
+      "privacy": "Sus datos se manejan con estricta confidencialidad."
+    },
+    "results": {
+      "title": "Informe de Diagnóstico Operativo",
+      "overallScore": "Puntuación de Cuellos de Botella",
+      "maturity": "Nivel de Madurez",
+      "pillarBreakdown": "Desglose por Pilares",
+      "topBottlenecks": "Principales Cuellos de Botella Estratégicos",
+      "recommendation": "Enfoque Recomendado Fase 1",
+      "ctaTitle": "¿Listo para automatizar y escalar?",
+      "ctaDescription": "Reserve una llamada de diagnóstico de 15 minutos para discutir estos resultados y explorar una hoja de ruta de automatización personalizada para su negocio.",
+      "bookCall": "Programar Llamada de Diagnóstico",
+      "scoreDescription": "Una puntuación más alta indica una base operativa más robusta, digital y escalable.",
+      "sharePrompt": "Reta a tu red — ¿cómo se compara su empresa?",
+      "shareLinkedIn": "Compartir Mi Score en LinkedIn"
+    },
+    "pillars": {
+      "visibility": "Visibilidad",
+      "process": "Control de Procesos",
+      "execution": "Ejecución y Seguimiento",
+      "approvals": "Aprobaciones y Entregas",
+      "reporting": "Informes y Responsabilidad"
+    },
+    "maturity": {
+      "fragile": {
+        "label": "Frágil",
+        "description": "Las operaciones dependen en gran medida de la memoria individual y el esfuerzo manual. Alto riesgo de error y agotamiento."
+      },
+      "reactive": {
+        "label": "Reactiva",
+        "description": "Los procesos existen pero están fragmentados. La gerencia pasa la mayor parte de su tiempo apagando incendios en lugar de escalar."
+      },
+      "functional": {
+        "label": "Funcional pero Limitada",
+        "description": "Base sólida, pero las entregas manuales y las brechas de visibilidad impiden el siguiente nivel de crecimiento."
+      },
+      "strong": {
+        "label": "Base Sólida",
+        "description": "Altamente digital y automatizada. Las operaciones son una ventaja competitiva, no un cuello de botella."
+      }
+    },
+    "bottlenecks": {
+      "manual_followup": {
+        "title": "Dependencia de Seguimiento Manual",
+        "description": "El trabajo se mueve porque las personas recuerdan impulsarlo, no porque el sistema lo atraiga."
+      },
+      "visibility_gap": {
+        "title": "Brecha de Visibilidad Operativa",
+        "description": "La gerencia carece de información en tiempo real sobre el estado del trabajo, lo que lleva a una toma de decisiones reactiva."
+      },
+      "fragmented_data": {
+        "title": "Fragmentación de Datos",
+        "description": "La información está dispersa en WhatsApp, Excel y correo electrónico, creando islas de conocimiento."
+      },
+      "approval_friction": {
+        "title": "Fricción en Aprobaciones y Entregas",
+        "description": "Las etapas críticas se retrasan esperando aprobaciones manuales o se pierden en hilos de correo."
+      },
+      "reporting_blindness": {
+        "title": "Ceguera de Informes",
+        "description": "La falta de KPIs automatizados hace imposible identificar dónde está perdiendo dinero el negocio realmente."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Automatización inteligente para negocios enfocados en crecimiento.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "connect": "Conectar",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "rights": "Todos los derechos reservados."
+  }
+}
