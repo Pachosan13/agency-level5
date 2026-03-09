@@ -32,28 +32,26 @@ export function ScrollReveal({
   };
 
   useGSAP(() => {
+    if (!ref.current) return;
     const pos = offsets[direction];
-    gsap.fromTo(
-      ref.current,
-      { opacity: 0, ...pos },
-      {
-        opacity: 1,
-        x: 0,
-        y: 0,
-        duration,
-        delay,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: ref.current,
-          start: 'top 85%',
-          toggleActions: 'play none none none',
-        },
-      }
-    );
+    gsap.set(ref.current, { opacity: 0, ...pos });
+    gsap.to(ref.current, {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      duration,
+      delay,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: ref.current,
+        start: 'top 85%',
+        toggleActions: 'play none none none',
+      },
+    });
   }, { scope: ref });
 
   return (
-    <div ref={ref} className={className} style={{ opacity: 0 }}>
+    <div ref={ref} className={className}>
       {children}
     </div>
   );
