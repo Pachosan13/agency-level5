@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { SmoothScrollProvider } from '@/components/animations/SmoothScrollProvider';
+import { spaceGrotesk, inter, jetbrainsMono } from '@/lib/fonts';
 import type { Metadata } from 'next';
 
 type Props = {
@@ -20,13 +21,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
 
   const titles: Record<string, string> = {
-    en: 'Agency Level 5 | AI Automation & Smart Websites',
-    es: 'Agency Level 5 | Automatización IA y Sitios Web Inteligentes',
+    en: 'Agency Level 5 | AI Automation Agency — Chatbots, Workflows & Smart Websites',
+    es: 'Agency Level 5 | Agencia de Automatización con IA — Chatbots, Flujos y Sitios Web',
   };
 
   const descriptions: Record<string, string> = {
-    en: 'We build AI automations, chatbots, and smart websites that generate leads, save time, and scale your business operations.',
-    es: 'Construimos automatizaciones con IA, chatbots y sitios web inteligentes que generan leads, ahorran tiempo y escalan sus operaciones.',
+    en: 'Agency Level 5 builds custom AI chatbots, workflow automations, and smart websites that help businesses save time, reduce costs, and scale faster.',
+    es: 'Agency Level 5 construye chatbots con IA, automatizaciones de flujos de trabajo y sitios web inteligentes que ayudan a ahorrar tiempo, reducir costos y escalar.',
   };
 
   return {
@@ -35,18 +36,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: `%s | Agency Level 5`,
     },
     description: descriptions[locale] || descriptions.en,
-    metadataBase: new URL('https://agencylevel5.com'),
-    alternates: {
-      canonical: `/${locale}`,
-      languages: {
-        en: '/en',
-        es: '/es',
-      },
-    },
+    // NOTE: alternates removed from layout — each page sets its own canonical
+    // to avoid the bug where ALL pages pointed to /${locale} as canonical
     openGraph: {
       type: 'website',
       locale: locale === 'es' ? 'es_ES' : 'en_US',
       siteName: 'Agency Level 5',
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
   };
 }
@@ -62,12 +68,18 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <SmoothScrollProvider>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </SmoothScrollProvider>
-    </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body
+        className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} antialiased`}
+      >
+        <NextIntlClientProvider messages={messages}>
+          <SmoothScrollProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </SmoothScrollProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

@@ -1,7 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
+import type { Metadata } from 'next';
 import { Link } from '@/i18n/navigation';
 import { MessageSquare, Workflow, Globe, Target, Brain, ArrowUpRight, Zap } from 'lucide-react';
+import { generateAlternates } from '@/lib/seo';
 
 const icons = [MessageSquare, Workflow, Globe, Target, Brain];
 const gradients = [
@@ -21,10 +23,14 @@ const hrefs = [
 
 type Props = { params: Promise<{ locale: string }> };
 
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'services_page' });
-  return { title: t('title'), description: t('subtitle') };
+  return {
+    title: t('title'),
+    description: t('subtitle'),
+    alternates: generateAlternates('/services', locale),
+  };
 }
 
 export default async function ServicesPage({ params }: Props) {
@@ -73,7 +79,7 @@ export default async function ServicesPage({ params }: Props) {
           <p className="text-text-secondary mb-4">{t('cta_diagnostic')}</p>
           <Link href="/diagnostic"
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-accent-violet to-accent-purple px-6 py-3 text-sm font-bold text-white hover:shadow-[0_0_30px_rgba(124,58,237,0.3)] transition-all">
-            Free Diagnostic <ArrowUpRight className="h-4 w-4" />
+            {locale === 'es' ? 'Diagnóstico Gratis' : 'Free Diagnostic'} <ArrowUpRight className="h-4 w-4" />
           </Link>
         </div>
       </div>

@@ -1,3 +1,16 @@
+/** Generates correct canonical + hreflang alternates for any page path */
+export function generateAlternates(path: string, locale: string) {
+  const cleanPath = path === '/' ? '' : path;
+  return {
+    canonical: `/${locale}${cleanPath}`,
+    languages: {
+      en: `/en${cleanPath}`,
+      es: `/es${cleanPath}`,
+      'x-default': `/en${cleanPath}`,
+    },
+  };
+}
+
 export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',

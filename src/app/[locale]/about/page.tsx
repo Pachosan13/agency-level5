@@ -1,14 +1,20 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
+import type { Metadata } from 'next';
 import { Link } from '@/i18n/navigation';
 import { ArrowRight } from 'lucide-react';
+import { generateAlternates } from '@/lib/seo';
 
 type Props = { params: Promise<{ locale: string }> };
 
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about' });
-  return { title: t('title'), description: t('subtitle') };
+  return {
+    title: t('title'),
+    description: t('subtitle'),
+    alternates: generateAlternates('/about', locale),
+  };
 }
 
 export default async function AboutPage({ params }: Props) {
@@ -57,7 +63,7 @@ export default async function AboutPage({ params }: Props) {
         <div className="text-center">
           <Link href="/contact"
             className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-accent-violet to-accent-purple px-8 py-4 text-sm font-bold text-white transition-all hover:shadow-[0_0_30px_rgba(124,58,237,0.3)] hover:scale-105">
-            Let&apos;s Work Together <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            {locale === 'es' ? 'Trabajemos Juntos' : 'Let\u0027s Work Together'} <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
       </div>
