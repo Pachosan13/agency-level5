@@ -64,6 +64,46 @@ export function generateFAQSchema(faqs: Array<{ question: string; answer: string
   };
 }
 
+export function generateArticleSchema(
+  locale: string,
+  article: { title: string; description: string; slug: string; date: string; image?: string }
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    url: `https://agencylevel5.com/${locale}/blog/${article.slug}`,
+    datePublished: article.date,
+    dateModified: article.date,
+    inLanguage: locale === 'es' ? 'es' : 'en',
+    author: {
+      '@type': 'Person',
+      name: 'Pacho Sanchez',
+      url: 'https://www.linkedin.com/in/pachosanchez/',
+      jobTitle: 'Founder & Operator',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'Agency Level 5',
+      },
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Agency Level 5',
+      url: 'https://agencylevel5.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://agencylevel5.com/images/logo.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://agencylevel5.com/${locale}/blog/${article.slug}`,
+    },
+    ...(article.image && { image: article.image }),
+  };
+}
+
 export function generateWebApplicationSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
