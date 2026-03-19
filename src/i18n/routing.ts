@@ -54,6 +54,22 @@ export const routing = defineRouting({
       en: '/panama',
       es: '/panama',
     },
+    '/colombia': {
+      en: '/colombia',
+      es: '/colombia',
+    },
+    '/fractional-coo': {
+      en: '/fractional-coo',
+      es: '/coo-fraccional',
+    },
+    '/case-studies': {
+      en: '/case-studies',
+      es: '/casos-de-exito',
+    },
+    '/pricing': {
+      en: '/pricing',
+      es: '/precios',
+    },
   },
 });
 

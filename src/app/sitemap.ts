@@ -19,6 +19,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/gohighlevel',
     '/panama',
+    '/colombia',
+    '/fractional-coo',
+    '/case-studies',
+    '/pricing',
   ];
 
   const entries: MetadataRoute.Sitemap = [];
