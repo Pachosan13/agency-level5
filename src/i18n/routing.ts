@@ -70,6 +70,14 @@ export const routing = defineRouting({
       en: '/pricing',
       es: '/precios',
     },
+    '/services/hvac-automation': {
+      en: '/services/hvac-automation',
+      es: '/servicios/automatizacion-hvac',
+    },
+    '/services/contractors': {
+      en: '/services/contractors',
+      es: '/servicios/contratistas',
+    },
   },
 });
 

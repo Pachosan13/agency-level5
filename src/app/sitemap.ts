@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/fractional-coo',
     '/case-studies',
     '/pricing',
+    '/services/hvac-automation',
+    '/services/contractors',
   ];
 
   const entries: MetadataRoute.Sitemap = [];
