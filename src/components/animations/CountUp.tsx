@@ -17,19 +17,22 @@ interface CountUpProps {
 
 export function CountUp({ end, suffix = '', prefix = '', duration = 2, className }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(end);
 
   useGSAP(() => {
     const obj = { val: 0 };
-    gsap.to(obj, {
-      val: end,
-      duration,
-      ease: 'power2.out',
-      onUpdate: () => setValue(Math.round(obj.val)),
-      scrollTrigger: {
-        trigger: ref.current,
-        start: 'top 85%',
-        toggleActions: 'play none none none',
+
+    ScrollTrigger.create({
+      trigger: ref.current,
+      start: 'top 85%',
+      onEnter: () => {
+        setValue(0);
+        gsap.to(obj, {
+          val: end,
+          duration,
+          ease: 'power2.out',
+          onUpdate: () => setValue(Math.round(obj.val)),
+        });
       },
     });
   }, { scope: ref });

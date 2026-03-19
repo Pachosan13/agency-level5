@@ -42,6 +42,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale === 'es' ? 'es_ES' : 'en_US',
       siteName: 'Agency Level 5',
+      images: [
+        {
+          url: 'https://agencylevel5.com/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'Agency Level 5 — AI Automation Agency',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['https://agencylevel5.com/og-image.png'],
     },
     robots: {
       index: true,

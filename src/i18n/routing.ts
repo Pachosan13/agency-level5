@@ -46,6 +46,14 @@ export const routing = defineRouting({
       en: '/contact',
       es: '/contacto',
     },
+    '/gohighlevel': {
+      en: '/gohighlevel',
+      es: '/gohighlevel',
+    },
+    '/panama': {
+      en: '/panama',
+      es: '/panama',
+    },
   },
 });
 

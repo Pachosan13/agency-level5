@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { blogPosts } from '@/data/blog-posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://agencylevel5.com';
@@ -16,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/diagnostic',
     '/blog',
     '/contact',
+    '/gohighlevel',
+    '/panama',
   ];
 
   const entries: MetadataRoute.Sitemap = [];
@@ -27,6 +30,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: page === '' ? 'weekly' : 'monthly',
         priority: page === '' ? 1 : page.startsWith('/services/') ? 0.8 : 0.7,
+      });
+    });
+  });
+
+  blogPosts.forEach((post) => {
+    locales.forEach((locale) => {
+      entries.push({
+        url: `${baseUrl}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'monthly',
+        priority: 0.7,
       });
     });
   });
