@@ -54,6 +54,18 @@ export const routing = defineRouting({
       en: '/panama',
       es: '/panama',
     },
+    '/panama/marketing-digital': {
+      en: '/panama/marketing-digital',
+      es: '/panama/marketing-digital',
+    },
+    '/panama/diseno-web': {
+      en: '/panama/diseno-web',
+      es: '/panama/diseno-web',
+    },
+    '/panama/seo': {
+      en: '/panama/seo',
+      es: '/panama/seo',
+    },
     '/colombia': {
       en: '/colombia',
       es: '/colombia',
